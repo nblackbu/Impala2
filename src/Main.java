@@ -8,11 +8,8 @@ import java.util.GregorianCalendar;
 
 public class Main {
     public static void main(String[] args) {
-        LocalDate localDate = LocalDate.now();
+        System.out.println("Hello GitHub");
 
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
-
-        System.out.println(LocalDate.parse("March-03-2026", dateTimeFormatter));
 
     }
 }
