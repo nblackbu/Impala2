@@ -14,4 +14,8 @@ public class Main {
     static void hello () {
         System.out.println("Hello!");
     }
+
+    static void helloTask2 () {
+        System.out.println("helloTask2!");
+    }
 }
